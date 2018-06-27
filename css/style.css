@@ -200,6 +200,11 @@ body {
     font-weight: 400;
 }
 
+.section-text__centred {
+    max-width: 70%;
+    text-align: center;
+}
+
 .offers {
     width: 100%;
     display: flex;
@@ -325,7 +330,7 @@ body {
     justify-content: center;
 }
 
-.works-video iframe {
+.works-video video {
     width: 80%;
     height: 514px;
 }
