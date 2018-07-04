@@ -1,0 +1,104 @@
+@media (max-width: 1200px) {
+
+    .header-content {
+        width: 80%;
+    }
+
+    .offers-gallery {
+        grid-gap: 15px;
+    }
+
+    .gallery-item__size1 {
+        width: 100%;
+    }
+
+    .gallery-item__size2 {
+        width: 100%;
+    }
+
+    .gallery-item__size3 {
+        width: 100%;
+    }
+
+    .holder_bu_awayL1,
+    .holder_bu_center,
+    .holder_bu_awayR1 {
+        width: 50%;
+    }
+
+    .app-text {
+        padding: 0;
+        width: 65%;
+    }
+
+    .app-phone {
+        width: 35%;
+        justify-content: unset;
+    }
+}
+
+@media (max-width: 991px) {
+    .btn {
+        font-size: 12px;
+    }
+
+    .header-title {
+        font-size: 54px;
+    }
+
+    .header-title__sub {
+        font-size: 18px;
+    }
+
+    .offers-gallery {
+        grid-gap: 10px;
+    }
+
+    .nav-item {
+        padding: 30px 20px;
+    }
+
+    .to-store-wrapper {
+        width: 30%;
+    }
+
+    .header-top-form {
+        width: 25%;
+    }
+
+    .offer-content {
+        height: auto;
+    }
+
+    .section-text {
+        margin-bottom: 20px;
+    }
+
+    .offer-btn .btn{
+        width: 50%;
+    }
+
+    .offer {
+        margin-bottom: 50px;
+    }
+}
+
+@media (max-width: 769px) {
+    .nav-item {
+        padding: 25px 10px;
+        margin: 0 10px;
+    }
+
+    .section-title {
+        font-size: 34px;
+    }
+
+    .offer-text--title {
+        margin-bottom: 5px;
+    }
+
+    .section-text {
+        font-size: 18px;
+    }
+
+}
