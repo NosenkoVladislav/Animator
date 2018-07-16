@@ -149,10 +149,17 @@
 
     .app-phone {
         width: 47%;
+        display: flex;
+        justify-content: center;
     }
 
     .app-phone img {
         transform: scale(0.85);
+    }
+
+    .app-content {
+        height: auto;
+        padding: 50px 0;
     }
 
     .offer-content {
@@ -167,6 +174,7 @@
     .offer-text--title__sub {
         text-align: unset;
         margin-top: 10px;
+        padding: 0 10px;
     }
 
     .offer-text--title {
@@ -189,6 +197,68 @@
     .works-video video {
         width: 100%;
     }
+
+    .offers-gallery {
+        grid-gap: 20px;
+    }
+
+    .gallery-item {
+        height: 164px;
+        width: 100%;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        border-radius: 10px;
+        overflow: hidden;
+    }
+
+    .gallery-item--1 {
+        grid-column: 1;
+        grid-row: 1;
+    }
+
+    .gallery-item--2 {
+        grid-column: 2;
+        grid-row: 1;
+    }
+
+    .gallery-item--3 {
+        grid-column: 1;
+        grid-row: 2;
+        height: 356px;
+    }
+
+    .gallery-item--4 {
+        grid-column: 2;
+        grid-row: 2;
+    }
+
+    .gallery-item--5 {
+        grid-column: 1;
+        grid-row: 3;
+    }
+
+    .gallery-item--6 {
+        grid-column: 2/3;
+        grid-row: 3;
+    }
+
+    .gallery-item--7 {
+        grid-column: 1;
+        grid-row: 4;
+    }
+
+    .gallery-item--8 {
+        grid-column: 2;
+        grid-row: 4;
+    }
+
+    .gallery-item__size1,
+    .gallery-item__size2,
+    .gallery-item__size3{
+        width: 100%;
+        height: 200px;
+    }
+
 }
 
 @media (max-width: 480px) {
@@ -238,7 +308,6 @@
     }
 
     .app-content {
-        height: 100vh;
         flex-wrap: wrap;
     }
 
@@ -254,16 +323,44 @@
         transform: scale(1);
     }
 
-    .recommend {
-        margin-bottom: 90px;
+    .offer-text--title__sub {
+        text-align: unset;
     }
 
     .footer-share__app {
         flex-direction: row;
         justify-content: space-around;
     }
+
+    .gallery-item__size1,
+    .gallery-item__size2,
+    .gallery-item__size3{
+        width: 100%;
+        height: 150px;
+    }
+
+    .offers-gallery {
+        grid-gap: 15px;
+    }
+
+    .holder_bu_awayL1, .holder_bu_center, .holder_bu_awayR1 {
+        width: 100%;
+        left: 0;
+    }
+
+    .holder_bu_awayR1,
+    .holder_bu_awayL1,
+    .holder_bu_awayR1,
+    .holder_bu_center{
+        opacity: 1;
+        background-color: #fff;
+        top: 0;
+        overflow: hidden;
+    }
 }
 
 @media (max-width: 480px) {
-
+    .recommend {
+        margin-bottom: 0;
+    }
 }
