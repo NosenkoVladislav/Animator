@@ -195,7 +195,9 @@
     .header-top {
         height: auto;
         flex-wrap: wrap;
+        padding: 5px 0;
     }
+    
     .header-top-form {
         order: 2;
         width: 100%;
@@ -218,6 +220,23 @@
         text-align: center;
     }
 
+    .header-content {
+        width: 100%;
+    }
+
+    .header-title {
+        font-size: 26px;
+    }
+
+    .header-top--logo {
+        width: 60px;
+        height: 60px;
+    }
+
+    .header-top--logo a {
+        height: 60px;
+    }
+
     .app-content {
         height: 100vh;
         flex-wrap: wrap;
@@ -237,6 +256,11 @@
 
     .recommend {
         margin-bottom: 90px;
+    }
+
+    .footer-share__app {
+        flex-direction: row;
+        justify-content: space-around;
     }
 }
 
