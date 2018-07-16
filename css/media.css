@@ -35,6 +35,10 @@
         width: 35%;
         justify-content: unset;
     }
+
+    .navbar-nav li {
+        padding: 30px 0;
+    }
 }
 
 @media (max-width: 991px) {
@@ -54,8 +58,14 @@
         grid-gap: 10px;
     }
 
-    .nav-item {
-        padding: 30px 20px;
+    /*.nav-item {*/
+        /*padding: 30px 20px;*/
+        /*font-size: 13px;*/
+    /*}*/
+
+    .navbar-nav li {
+        padding: 15px 0;
+        margin: 0;
     }
 
     .to-store-wrapper {
@@ -84,9 +94,19 @@
 }
 
 @media (max-width: 769px) {
-    .nav-item {
-        padding: 25px 10px;
-        margin: 0 10px;
+    /*.nav-item {*/
+        /*padding: 25px 10px;*/
+        /*margin: 0 10px;*/
+    /*}*/
+
+    .navbar-nav li {
+        font-size: 13px;
+        padding: 10px 0;
+    }
+
+    .btn-header,
+    .btn-gradient {
+        width: 180px;
     }
 
     .section-title {
@@ -100,5 +120,126 @@
     .section-text {
         font-size: 18px;
     }
+
+    .header-top-form {
+        width: auto;
+        flex-grow: 1;
+    }
+
+    .header-title {
+        font-size: 36px;
+    }
+
+    .header-title__sub {
+        font-size: 16px;
+    }
+
+    .app-text {
+        width: 53%;
+    }
+
+    .app-title {
+        font-size: 26px;
+        text-align: center;
+    }
+
+    .app-title__sub {
+        font-size: 16px;
+    }
+
+    .app-phone {
+        width: 47%;
+    }
+
+    .app-phone img {
+        transform: scale(0.85);
+    }
+
+    .offer-content {
+        flex-direction: column;
+    }
+
+    .offer-text {
+        order: 2;
+        width: 100%;
+    }
+    
+    .offer-text--title__sub {
+        text-align: unset;
+        margin-top: 10px;
+    }
+
+    .offer-text--title {
+        margin-top: 15px;
+    }
+    
+    .offer-btn {
+        text-align: center;
+    }
+
+    .offer-img {
+        order: 1;
+        width: 100%;
+    }
+
+    .footer-list {
+        min-height: 140px;
+    }
+
+    .works-video video {
+        width: 100%;
+    }
+}
+
+@media (max-width: 480px) {
+    .header-top {
+        height: auto;
+        flex-wrap: wrap;
+    }
+    .header-top-form {
+        order: 2;
+        width: 100%;
+        margin: 20px 0;
+        display: flex;
+        justify-content: center;
+    }
+
+    .header-top-input {
+        width: 90%;
+    }
+
+    .section-title {
+        font-size: 24px;
+        text-align: center;
+    }
+
+    .section-text {
+        font-size: 16px;
+        text-align: center;
+    }
+
+    .app-content {
+        height: 100vh;
+        flex-wrap: wrap;
+    }
+
+    .app-text {
+        width: 100%;
+    }
+
+    .app-phone {
+        width: 100%;
+    }
+
+    .app-phone img {
+        transform: scale(1);
+    }
+
+    .recommend {
+        margin-bottom: 90px;
+    }
+}
+
+@media (max-width: 480px) {
 
 }

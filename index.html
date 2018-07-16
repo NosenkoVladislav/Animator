@@ -20,7 +20,7 @@
                 <div class="header-top--logo">
                     <a href="index.html"><img src="assets/images/logo-white.png" alt=""></a>
                 </div>
-                <div class="to-store-wrapper">
+                <div class="to-store-wrapper hidden-xs">
                     <a href="#" class="to-store to-is">
                         <img src="assets/images/as-logo.png" alt="to Apple Store">
                     </a>
@@ -35,21 +35,43 @@
                     <div class="header-purchases">cart</div>
                     <a href="location.html" class="lang">
                         <div class="lang-value">en</div>
-                        <div class="lang-separator"></div>
-                        <div class="lang-name">united kingdom</div>
+                        <div class="lang-separator hidden-xs"></div>
+                        <div class="lang-name hidden-xs">united kingdom</div>
                     </a>
                     <a href="sign-in.html" class="login">Sign in</a>
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                    </div>
                 </div>
             </div>
         </div>
         <div class="navbar-wrapper">
             <div class="container">
+                <!--<nav class="navbar">-->
+                    <!--<a href="categories.html" class="nav-item">категории</a>-->
+                    <!--<a href="production-page.html" class="nav-item">предложения</a>-->
+                    <!--<a href="about.html" class="nav-item">как это работает</a>-->
+                    <!--<a href="blog-food&drinks.html" class="nav-item">блог</a>-->
+                    <!--<a href="contacts.html" class="nav-item">контакты</a>-->
+                <!--</nav>-->
                 <nav class="navbar">
-                    <a href="categories.html" class="nav-item">категории</a>
-                    <a href="production-page.html" class="nav-item">предложения</a>
-                    <a href="about.html" class="nav-item">как это работает</a>
-                    <a href="blog-food&drinks.html" class="nav-item">блог</a>
-                    <a href="contacts.html" class="nav-item">контакты</a>
+                    <div class="container-fluid">
+
+                        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                            <ul class="nav navbar-nav">
+                                <li><a href="categories.html" class="nav-item">категории</a></li>
+                                <li><a href="production-page.html" class="nav-item">предложения</a></li>
+                                <li><a href="about.html" class="nav-item">как это работает</a></li>
+                                <li><a href="blog-food&drinks.html" class="nav-item">блог</a></li>
+                                <li><a href="contacts.html" class="nav-item">контакты</a></li>
+                            </ul>
+                        </div><!-- /.navbar-collapse -->
+                    </div><!-- /.container-fluid -->
                 </nav>
             </div>
         </div>
@@ -67,9 +89,13 @@
         </div>
     </section>
     <section class="offers">
-        <div class="section-title">Пользователи предпочитают</div>
-        <div class="section-text">Самые популярные предложения, и это не понаслышке!</div>
-        <div class="section-text section-text__centred">У нас есть отличные предложения, как можно провести время с пользой и получить море удовольствия. Будьте осторожны, возможно, вы захотите бросить свою работу.</div>
+        <div class="offers-title-text">
+            <div class="section-title">Пользователи предпочитают</div>
+            <div class="section-text">Самые популярные предложения, и это не понаслышке!</div>
+            <div class="section-text section-text__centred">У нас есть отличные предложения, как можно провести время с
+                пользой и получить море удовольствия. Будьте осторожны, возможно, вы захотите бросить свою работу.
+            </div>
+        </div>
         <div class="container">
             <div class="offers-gallery">
                 <div class="gallery-item gallery-item--1 gallery-item__size1">
@@ -276,7 +302,7 @@
     <section class="footer">
         <div class="container">
             <div class="row">
-                <div class="col-xs-12 col-sm-3 col-md-2 col-lg-2">
+                <div class="col-xs-6 col-sm-3 col-md-2 col-lg-2">
                     <ul class="footer-list">
                         <li class="footer-list-item footer-list-item__title">Категории</li>
                         <li class="footer-list-item"><a href="#">Еда & напитки</a></li>
@@ -286,7 +312,7 @@
                         <li class="footer-list-item"><a href="#">Фитнес & спа</a></li>
                     </ul>
                 </div>
-                <div class="col-xs-12 col-sm-3 col-md-2 col-lg-2">
+                <div class="col-xs-6 col-sm-3 col-md-2 col-lg-2">
                     <ul class="footer-list">
                         <li class="footer-list-item footer-list-item__title">как это работает</li>
                         <li class="footer-list-item"><a href="#">Еда & напитки</a></li>
@@ -294,7 +320,7 @@
                         <li class="footer-list-item"><a href="#">Красота & здоровье</a></li>
                     </ul>
                 </div>
-                <div class="col-xs-12 col-sm-3 col-md-2 col-lg-2">
+                <div class="col-xs-6 col-sm-3 col-md-2 col-lg-2">
                     <ul class="footer-list">
                         <li class="footer-list-item footer-list-item__title">контакты</li>
                         <li class="footer-list-item"><a href="#">Еда & напитки</a></li>
@@ -302,13 +328,13 @@
                         <li class="footer-list-item"><a href="#">Красота & здоровье</a></li>
                     </ul>
                 </div>
-                <div class="col-xs-12 col-sm-3 col-md-2 col-lg-2">
+                <div class="col-xs-6 col-sm-3 col-md-2 col-lg-2">
                     <ul class="footer-list">
                         <li class="footer-list-item"><a href="#">Terms of use</a></li>
                         <li class="footer-list-item"><a href="#">Privacy Policy</a></li>
                     </ul>
                 </div>
-                <div class="col-md-12 col-sm-12 col-md-4 col-lg-4">
+                <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
                     <div class="footer-share">
                         <a href="#" class="share-item">
                             <i class="fab fa-facebook-f"></i>
@@ -336,6 +362,7 @@
     </section>
 </body>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script src="plugins/bootstrap/js/bootstrap.min.js"></script>
 <script src="plugins/slider/slider.js"></script>
 <script src="js/main.js"></script>
 </html>
