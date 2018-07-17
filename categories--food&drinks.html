@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Blog Food/drinks</title>
+    <title>Categories Food/drinks</title>
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="plugins/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
@@ -19,36 +19,44 @@
             <div class="header-top--logo">
                 <a href="index.html"><img src="assets/images/logo-blue.png" alt=""></a>
             </div>
-            <div class="to-store-wrapper">
+            <div class="to-store-wrapper hidden-xs">
                 <a href="#" class="to-store to-is">
-                    <img src="assets/images/as-logo__dark.png" alt="to Apple Store">
+                    <img src="assets/images/as-logo.png" alt="to Apple Store">
                 </a>
                 <a href="#" class="to-store to-pm">
-                    <img src="assets/images/gp-logo__dark.png" alt="to Google Play">
+                    <img src="assets/images/gp-logo.png" alt="to Google Play">
                 </a>
             </div>
             <div class="header-top-form">
                 <input type="text" placeholder="ПОИСК" class="header-top-input">
             </div>
             <div class="header-right">
-                <div class="header-purchases">cart</div>
-                <a href="location.html" class="lang">
-                    <div class="lang-value">en</div>
-                    <div class="lang-separator"></div>
-                    <div class="lang-name">united kingdom</div>
-                </a>
-                <a href="sign-in.html" class="login">Sign in</a>
+                <a href="sign-in.html" class="login"><i class="far fa-user"></i>Sign in</a>
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>
             </div>
         </div>
     </div>
     <div class="navbar-wrapper">
         <div class="container">
             <nav class="navbar">
-                <a href="#" class="nav-item">категории</a>
-                <a href="production-page.html" class="nav-item">предложения</a>
-                <a href="about.html" class="nav-item">как это работает</a>
-                <a href="blog-main.html" class="nav-item current">блог</a>
-                <a href="contacts.html" class="nav-item">контакты</a>
+                <div class="container-fluid">
+                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                        <ul class="nav navbar-nav">
+                            <li><a href="categories.html" class="nav-item">категории</a></li>
+                            <li><a href="production-page.html" class="nav-item">предложения</a></li>
+                            <li><a href="about.html" class="nav-item">как это работает</a></li>
+                            <li><a href="blog-food&drinks.html" class="nav-item">блог</a></li>
+                            <li><a href="contacts.html" class="nav-item">контакты</a></li>
+                        </ul>
+                    </div>
+                </div>
             </nav>
         </div>
     </div>
@@ -60,17 +68,76 @@
             <div class="section-title">Категории</div>
         </div>
         <div class="categories-nav">
-            <a href="categories.html" class="categories-nav-itm btn active">Еда и напитки</a>
-            <a href="#" class="categories-nav-itm btn">Путишествия</a>
-            <a href="#" class="categories-nav-itm btn">Активности</a>
-            <a href="#" class="categories-nav-itm btn">Стиль жизни</a>
-            <a href="#" class="categories-nav-itm btn">Блогеры</a>
+            <a href="categories--food&drinks.html" class="categories-nav-itm btn active"><span>Еда, напитки</span><i class="fas fa-cocktail"></i></a>
+            <a href="#" class="categories-nav-itm btn"><span>Красота, здоровье</span><i class="fas fa-heart"></i></a>
+            <a href="#" class="categories-nav-itm btn"><span>Развлечения, отдых</span><i class="fas fa-umbrella-beach"></i></a>
+            <a href="#" class="categories-nav-itm btn"><span>Мода, ретейл</span><i class="fas fa-shopping-bag"></i></a>
+            <a href="#" class="categories-nav-itm btn"><span>Услуги, сервисы</span><i class="fas fa-user-tie"></i></a>
+        </div>
+        <div class="categories-nav__current">
+            Еда и напитки
         </div>
         <div class="search-result-content">
             <div class="row">
-                <div class="col-md-8 col-lg-8">
+                <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8">
                     <div class="row">
-                        <div class="col-md-6 col-lg-6">
+                        <div class="col-xs-6 col-sm-4 col-md-3 col-lg-3">
+                            <a href="open-article.html" class="imp-item search-result-itm">
+                                <div class="imp-img">
+                                    <div class="mask imp-mask"></div>
+                                    <button class="btn btn-imp">подробнее</button>
+                                    <img src="assets/images/card-img-1.jpg" alt="Card image 1">
+                                </div>
+                                <div class="imp-text">
+                                    <div class="imp-text--title">Docker</div>
+                                    <div class="imp-text--title__sub imp-text--title__adress">вул. Богатырська, 25</div>
+                                    <div class="imp-text--title__sub imp-text--title__phone">+380503585513</div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-xs-6 col-sm-4 col-md-3 col-lg-3">
+                            <a href="open-article.html" class="imp-item search-result-itm">
+                                <div class="imp-img">
+                                    <div class="mask imp-mask"></div>
+                                    <button class="btn btn-imp">подробнее</button>
+                                    <img src="assets/images/card-img-1.jpg" alt="Card image 1">
+                                </div>
+                                <div class="imp-text">
+                                    <div class="imp-text--title">Docker</div>
+                                    <div class="imp-text--title__sub imp-text--title__adress">вул. Богатырська, 25</div>
+                                    <div class="imp-text--title__sub imp-text--title__phone">+380503585513</div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-xs-6 col-sm-4 col-md-3 col-lg-3">
+                            <a href="open-article.html" class="imp-item search-result-itm">
+                                <div class="imp-img">
+                                    <div class="mask imp-mask"></div>
+                                    <button class="btn btn-imp">подробнее</button>
+                                    <img src="assets/images/card-img-1.jpg" alt="Card image 1">
+                                </div>
+                                <div class="imp-text">
+                                    <div class="imp-text--title">Docker</div>
+                                    <div class="imp-text--title__sub imp-text--title__adress">вул. Богатырська, 25</div>
+                                    <div class="imp-text--title__sub imp-text--title__phone">+380503585513</div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-xs-6 col-sm-4 col-md-3 col-lg-3">
+                            <a href="open-article.html" class="imp-item search-result-itm">
+                                <div class="imp-img">
+                                    <div class="mask imp-mask"></div>
+                                    <button class="btn btn-imp">подробнее</button>
+                                    <img src="assets/images/card-img-1.jpg" alt="Card image 1">
+                                </div>
+                                <div class="imp-text">
+                                    <div class="imp-text--title">Docker</div>
+                                    <div class="imp-text--title__sub imp-text--title__adress">вул. Богатырська, 25</div>
+                                    <div class="imp-text--title__sub imp-text--title__phone">+380503585513</div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-xs-6 col-sm-4 col-md-3 col-lg-3">
                             <a href="open-article.html" class="imp-item search-result-itm">
                                 <div class="imp-img">
                                     <div class="mask imp-mask"></div>
@@ -83,121 +150,184 @@
                                 </div>
                             </a>
                         </div>
-                        <div class="col-md-6 col-lg-6">
-                            <div class="imp-item search-result-itm">
+                        <div class="col-xs-6 col-sm-4 col-md-3 col-lg-3">
+                            <a href="open-article.html" class="imp-item search-result-itm">
                                 <div class="imp-img">
                                     <div class="mask imp-mask"></div>
                                     <button class="btn btn-imp">подробнее</button>
                                     <img src="assets/images/card-img-1.jpg" alt="Card image 1">
                                 </div>
                                 <div class="imp-text">
-                                    <div class="imp-text--title">Фестиваль мороженного</div>
-                                    <div class="imp-text--title__sub">Сэкономте до 80 грн</div>
+                                    <div class="imp-text--title">Docker</div>
+                                    <div class="imp-text--title__sub imp-text--title__adress">вул. Богатырська, 25</div>
+                                    <div class="imp-text--title__sub imp-text--title__phone">+380503585513</div>
                                 </div>
-                            </div>
+                            </a>
                         </div>
-                        <div class="col-md-6 col-lg-6">
-                            <div class="imp-item search-result-itm">
+                        <div class="col-xs-6 col-sm-4 col-md-3 col-lg-3">
+                            <a href="open-article.html" class="imp-item search-result-itm">
                                 <div class="imp-img">
                                     <div class="mask imp-mask"></div>
                                     <button class="btn btn-imp">подробнее</button>
                                     <img src="assets/images/card-img-1.jpg" alt="Card image 1">
                                 </div>
                                 <div class="imp-text">
-                                    <div class="imp-text--title">Фестиваль мороженного</div>
-                                    <div class="imp-text--title__sub">Сэкономте до 80 грн</div>
+                                    <div class="imp-text--title">Docker</div>
+                                    <div class="imp-text--title__sub imp-text--title__adress">вул. Богатырська, 25</div>
+                                    <div class="imp-text--title__sub imp-text--title__phone">+380503585513</div>
                                 </div>
-                            </div>
+                            </a>
                         </div>
-                        <div class="col-md-6 col-lg-6">
-                            <div class="imp-item search-result-itm">
+                        <div class="col-xs-6 col-sm-4 col-md-3 col-lg-3">
+                            <a href="open-article.html" class="imp-item search-result-itm">
                                 <div class="imp-img">
                                     <div class="mask imp-mask"></div>
                                     <button class="btn btn-imp">подробнее</button>
                                     <img src="assets/images/card-img-1.jpg" alt="Card image 1">
                                 </div>
                                 <div class="imp-text">
-                                    <div class="imp-text--title">Фестиваль мороженного</div>
-                                    <div class="imp-text--title__sub">Сэкономте до 80 грн</div>
+                                    <div class="imp-text--title">Docker</div>
+                                    <div class="imp-text--title__sub imp-text--title__adress">вул. Богатырська, 25</div>
+                                    <div class="imp-text--title__sub imp-text--title__phone">+380503585513</div>
                                 </div>
-                            </div>
+                            </a>
                         </div>
-                        <div class="col-md-6 col-lg-6">
-                            <div class="imp-item search-result-itm">
+                        <div class="col-xs-6 col-sm-4 col-md-3 col-lg-3">
+                            <a href="open-article.html" class="imp-item search-result-itm">
                                 <div class="imp-img">
                                     <div class="mask imp-mask"></div>
                                     <button class="btn btn-imp">подробнее</button>
                                     <img src="assets/images/card-img-1.jpg" alt="Card image 1">
                                 </div>
                                 <div class="imp-text">
-                                    <div class="imp-text--title">Фестиваль мороженного</div>
-                                    <div class="imp-text--title__sub">Сэкономте до 80 грн</div>
+                                    <div class="imp-text--title">Docker</div>
+                                    <div class="imp-text--title__sub imp-text--title__adress">вул. Богатырська, 25</div>
+                                    <div class="imp-text--title__sub imp-text--title__phone">+380503585513</div>
                                 </div>
-                            </div>
+                            </a>
+                        </div>
+                        <div class="col-xs-6 col-sm-4 col-md-3 col-lg-3">
+                            <a href="open-article.html" class="imp-item search-result-itm">
+                                <div class="imp-img">
+                                    <div class="mask imp-mask"></div>
+                                    <button class="btn btn-imp">подробнее</button>
+                                    <img src="assets/images/card-img-1.jpg" alt="Card image 1">
+                                </div>
+                                <div class="imp-text">
+                                    <div class="imp-text--title">Docker</div>
+                                    <div class="imp-text--title__sub imp-text--title__adress">вул. Богатырська, 25</div>
+                                    <div class="imp-text--title__sub imp-text--title__phone">+380503585513</div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-xs-6 col-sm-4 col-md-3 col-lg-3">
+                            <a href="open-article.html" class="imp-item search-result-itm">
+                                <div class="imp-img">
+                                    <div class="mask imp-mask"></div>
+                                    <button class="btn btn-imp">подробнее</button>
+                                    <img src="assets/images/card-img-1.jpg" alt="Card image 1">
+                                </div>
+                                <div class="imp-text">
+                                    <div class="imp-text--title">Docker</div>
+                                    <div class="imp-text--title__sub imp-text--title__adress">вул. Богатырська, 25</div>
+                                    <div class="imp-text--title__sub imp-text--title__phone">+380503585513</div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-xs-6 col-sm-4 col-md-3 col-lg-3">
+                            <a href="open-article.html" class="imp-item search-result-itm">
+                                <div class="imp-img">
+                                    <div class="mask imp-mask"></div>
+                                    <button class="btn btn-imp">подробнее</button>
+                                    <img src="assets/images/card-img-1.jpg" alt="Card image 1">
+                                </div>
+                                <div class="imp-text">
+                                    <div class="imp-text--title">Docker</div>
+                                    <div class="imp-text--title__sub imp-text--title__adress">вул. Богатырська, 25</div>
+                                    <div class="imp-text--title__sub imp-text--title__phone">+380503585513</div>
+                                </div>
+                            </a>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4 col-lg-4">
+                <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
                     <div class="blog-sidebar">
                         <div class="blog-sidebar-recommend">
                             <div class="blog-sidebar--title">Популярные предложения</div>
-                            <div class="blog-sidebar-itm">
-                                <div class="blog-sidebar-itm--img">
-                                    <img src="assets/images/blogImg.jpg" alt="blog image">
+                            <div class="blog-sidebar-itm-list">
+                                <div class="blog-sidebar-itm">
+                                    <div class="blog-sidebar-itm--img">
+                                        <img src="assets/images/blogImg.jpg" alt="blog image">
+                                    </div>
+                                    <div class="blog-sidebar-imt--text">Lorem ipsum dolor sit amet, consectetur adipisicing
+                                        elit. A at culpa doloribus earum
+                                    </div>
                                 </div>
-                                <div class="blog-sidebar-imt--text">Lorem ipsum dolor sit amet, consectetur adipisicing
-                                    elit. A at culpa doloribus earum
+                                <div class="blog-sidebar-itm">
+                                    <div class="blog-sidebar-itm--img">
+                                        <img src="assets/images/blogImg.jpg" alt="blog image">
+                                    </div>
+                                    <div class="blog-sidebar-imt--text">Lorem ipsum dolor sit amet, consectetur adipisicing
+                                        elit. A at culpa doloribus earum
+                                    </div>
+                                </div>
+                                <div class="blog-sidebar-itm">
+                                    <div class="blog-sidebar-itm--img">
+                                        <img src="assets/images/blogImg.jpg" alt="blog image">
+                                    </div>
+                                    <div class="blog-sidebar-imt--text">Lorem ipsum dolor sit amet, consectetur adipisicing
+                                        elit. A at culpa doloribus earum
+                                    </div>
+                                </div>
+                                <div class="blog-sidebar-itm">
+                                    <div class="blog-sidebar-itm--img">
+                                        <img src="assets/images/blogImg.jpg" alt="blog image">
+                                    </div>
+                                    <div class="blog-sidebar-imt--text">Lorem ipsum dolor sit amet, consectetur adipisicing
+                                        elit. A at culpa doloribus earum
+                                    </div>
+                                </div>
+                                <div class="blog-sidebar-itm">
+                                    <div class="blog-sidebar-itm--img">
+                                        <img src="assets/images/blogImg.jpg" alt="blog image">
+                                    </div>
+                                    <div class="blog-sidebar-imt--text">Lorem ipsum dolor sit amet, consectetur adipisicing
+                                        elit. A at culpa doloribus earum
+                                    </div>
+                                </div>
+                                <div class="blog-sidebar-itm">
+                                    <div class="blog-sidebar-itm--img">
+                                        <img src="assets/images/blogImg.jpg" alt="blog image">
+                                    </div>
+                                    <div class="blog-sidebar-imt--text">Lorem ipsum dolor sit amet, consectetur adipisicing
+                                        elit. A at culpa doloribus earum
+                                    </div>
+                                </div>
+                                <div class="blog-sidebar-itm">
+                                    <div class="blog-sidebar-itm--img">
+                                        <img src="assets/images/blogImg.jpg" alt="blog image">
+                                    </div>
+                                    <div class="blog-sidebar-imt--text">Lorem ipsum dolor sit amet, consectetur adipisicing
+                                        elit. A at culpa doloribus earum
+                                    </div>
+                                </div>
+                                <div class="blog-sidebar-itm">
+                                    <div class="blog-sidebar-itm--img">
+                                        <img src="assets/images/blogImg.jpg" alt="blog image">
+                                    </div>
+                                    <div class="blog-sidebar-imt--text">Lorem ipsum dolor sit amet, consectetur adipisicing
+                                        elit. A at culpa doloribus earum
+                                    </div>
+                                </div>
+                                <div class="blog-sidebar-itm">
+                                    <div class="blog-sidebar-itm--img">
+                                        <img src="assets/images/blogImg.jpg" alt="blog image">
+                                    </div>
+                                    <div class="blog-sidebar-imt--text">Lorem ipsum dolor sit amet, consectetur adipisicing
+                                        elit. A at culpa doloribus earum
+                                    </div>
                                 </div>
                             </div>
-                            <div class="blog-sidebar-itm">
-                                <div class="blog-sidebar-itm--img">
-                                    <img src="assets/images/blogImg.jpg" alt="blog image">
-                                </div>
-                                <div class="blog-sidebar-imt--text">Lorem ipsum dolor sit amet, consectetur adipisicing
-                                    elit. A at culpa doloribus earum
-                                </div>
-                            </div>
-                            <div class="blog-sidebar-itm">
-                                <div class="blog-sidebar-itm--img">
-                                    <img src="assets/images/blogImg.jpg" alt="blog image">
-                                </div>
-                                <div class="blog-sidebar-imt--text">Lorem ipsum dolor sit amet, consectetur adipisicing
-                                    elit. A at culpa doloribus earum
-                                </div>
-                            </div>
-                            <div class="blog-sidebar-itm">
-                                <div class="blog-sidebar-itm--img">
-                                    <img src="assets/images/blogImg.jpg" alt="blog image">
-                                </div>
-                                <div class="blog-sidebar-imt--text">Lorem ipsum dolor sit amet, consectetur adipisicing
-                                    elit. A at culpa doloribus earum
-                                </div>
-                            </div>
-                        </div>
-                        <form class="sidebar-subscribe">
-                            <div class="sidebar-title__sub">будте в курсе всех предложений</div>
-                            <div class="sidebar-subscribe--input">
-                                <input type="text" class="form-element" placeholder="E-mail">
-                            </div>
-                            <button class="btn btn-gradient btn-sidebar">подписаться</button>
-                        </form>
-                        <div class="sidebar-insta">
-                            <div class="sidebar-title__sub">мы в инстаграмме</div>
-                            <div class="sidebar-insta-wrapper">
-                                <div class="sidebar-insta-itm">
-                                    <img src="assets/images/rec-img-1.jpg" alt="instagram image">
-                                </div>
-                                <div class="sidebar-insta-itm">
-                                    <img src="assets/images/rec-img-1.jpg" alt="instagram image">
-                                </div>
-                                <div class="sidebar-insta-itm">
-                                    <img src="assets/images/rec-img-1.jpg" alt="instagram image">
-                                </div>
-                                <div class="sidebar-insta-itm">
-                                    <img src="assets/images/rec-img-1.jpg" alt="instagram image">
-                                </div>
-                            </div>
-                            <button class="btn btn-gradient btn-sidebar">instagram</button>
                         </div>
                     </div>
                 </div>
@@ -254,7 +384,7 @@
 <section class="footer">
     <div class="container">
         <div class="row">
-            <div class="col-xs-12 col-sm-3 col-md-2 col-lg-2">
+            <div class="col-xs-6 col-sm-3 col-md-2 col-lg-2">
                 <ul class="footer-list">
                     <li class="footer-list-item footer-list-item__title">Категории</li>
                     <li class="footer-list-item"><a href="#">Еда & напитки</a></li>
@@ -264,7 +394,7 @@
                     <li class="footer-list-item"><a href="#">Фитнес & спа</a></li>
                 </ul>
             </div>
-            <div class="col-xs-12 col-sm-3 col-md-2 col-lg-2">
+            <div class="col-xs-6 col-sm-3 col-md-2 col-lg-2">
                 <ul class="footer-list">
                     <li class="footer-list-item footer-list-item__title">как это работает</li>
                     <li class="footer-list-item"><a href="#">Еда & напитки</a></li>
@@ -272,7 +402,7 @@
                     <li class="footer-list-item"><a href="#">Красота & здоровье</a></li>
                 </ul>
             </div>
-            <div class="col-xs-12 col-sm-3 col-md-2 col-lg-2">
+            <div class="col-xs-6 col-sm-3 col-md-2 col-lg-2">
                 <ul class="footer-list">
                     <li class="footer-list-item footer-list-item__title">контакты</li>
                     <li class="footer-list-item"><a href="#">Еда & напитки</a></li>
@@ -280,13 +410,13 @@
                     <li class="footer-list-item"><a href="#">Красота & здоровье</a></li>
                 </ul>
             </div>
-            <div class="col-xs-12 col-sm-3 col-md-2 col-lg-2">
+            <div class="col-xs-6 col-sm-3 col-md-2 col-lg-2">
                 <ul class="footer-list">
                     <li class="footer-list-item"><a href="#">Terms of use</a></li>
                     <li class="footer-list-item"><a href="#">Privacy Policy</a></li>
                 </ul>
             </div>
-            <div class="col-md-12 col-sm-12 col-md-4 col-lg-4">
+            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
                 <div class="footer-share">
                     <a href="#" class="share-item">
                         <i class="fab fa-facebook-f"></i>
@@ -312,9 +442,9 @@
 <section class="copyright">
     <span>Copyright © 2018 The Animator. All Rights Reserved</span>
 </section>
-
+</body>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script src="plugins/bootstrap/js/bootstrap.min.js"></script>
 <script src="plugins/slider/slider.js"></script>
 <script src="js/main.js"></script>
-</body>
 </html>

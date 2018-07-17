@@ -266,6 +266,10 @@ body {
     color: #000;
 }
 
+.header__min .icon-bar {
+    background-color: #5b65d887;
+}
+
   /************/
  /*header end*/
 /************/
@@ -602,7 +606,7 @@ body {
 
 .imp-text--title__sub {
     font-size: 14px;
-    font-weight: 300;
+    font-weight: 400;
     height: 37px;
     overflow: hidden;
 }
@@ -858,7 +862,7 @@ body {
 }
 
 .chat {
-    width: 360px;
+    width: 300px;
     background: linear-gradient(#5b65d8, #8785c5);
     padding: 12px 20px;
     -webkit-border-radius: 5px;
@@ -867,10 +871,19 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    position: absolute;
-    right: 0;
-    bottom: -100px;
+    position: fixed;
+    right: 5%;
+    bottom: 5px;
     z-index: 999;
+    display: none;
+}
+
+.chat-toggle {
+    position: fixed;
+    right: 5%;
+    bottom: 5%;
+    z-index: 999;
+    display: none;
 }
 
 .chat-header {
@@ -881,7 +894,7 @@ body {
 }
 
 .chat-logo {
-    width: 60px;
+    width: 35px;
 }
 
 .chat-logo img {
@@ -915,7 +928,7 @@ body {
 
 .chat-form {
     width: 100%;
-    padding: 10px;
+    padding: 7px;
     background-color: #fff;
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
@@ -923,7 +936,7 @@ body {
 }
 
 .chat-phrase {
-    margin: 15px 0;
+    margin: 10px 0;
 }
 
 .chat-phrase--author {
@@ -943,7 +956,8 @@ body {
     background-color: #7db9ff;
     color: #fff;
     width: 50%;
-    margin: 15px 0;
+    margin: 5px 0;
+    padding: 5px 0;
 }
 
 .chat-footer {
@@ -955,7 +969,7 @@ body {
 .chat-footer--title {
     font-weight: 600;
     color: #fff;
-    margin: 8px 0;
+    margin: 4px 0;
 }
 
 .chat-footer-contorl {
@@ -1055,11 +1069,41 @@ body {
 
 .blog-sidebar {
     padding: 20px;
+    padding-top: 0;
 }
 
 .blog-sidebar--title {
     font-size: 22px;
     font-weight: 400;
+}
+
+.blog-sidebar-itm-list {
+    max-height: 385px;
+    overflow-y: scroll;
+    padding-right: 5px;
+}
+
+.blog-sidebar-itm-list::-webkit-scrollbar {
+    width: 5px
+}
+
+.blog-sidebar-itm-list::-webkit-scrollbar-track {
+    background-color: #ccc;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+}
+
+.blog-sidebar-itm-list::-webkit-scrollbar-thumb {
+    background-color: #8b94e4;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+}
+
+.blog-sidebar-itm-list::-webkit-scrollbar-thumb:hover {
+    background-color: #8b94e4;
+    cursor: pointer;
 }
 
 .blog-sidebar-itm {
@@ -1891,6 +1935,7 @@ body {
 .categories-section .section-title {
     margin: 0;
     text-align: center;
+    width: 100%;
 }
 
 .categories-nav {
@@ -1899,10 +1944,14 @@ body {
     justify-content: space-evenly;
 }
 
+.categories-nav i {
+    display: none;
+}
+
 .categories-nav-itm {
     text-align: center;
     font-size: 14px;
-    width: 15%;
+    width: 16%;
     cursor: pointer;
     background-color: transparent;
     color: #8b94e4;
@@ -1921,13 +1970,54 @@ body {
     text-decoration: none;
 }
 
+.categories-nav__current {
+    display: none;
+}
+
 .search-result-itm {
     text-decoration: none;
     color: inherit;
+}
+
+.search-result-content .imp-text--title__sub{
+    height: auto;
+    font-size: 12px;
+}
+
+.search-result-content .imp-text--title__phone {
+    font-size: 13px;
 }
 
 .search-result-itm:hover,
 .search-result-itm:focus{
     text-decoration: none;
     color: inherit;
+}
+
+.categories-section .imp-img {
+    height: 130px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.categories-section .imp-img .btn-imp {
+    width: 75%;
+    font-size: 12px;
+    padding: 7px 12px;
+}
+
+.categories-section .imp-text {
+    padding: 10px;
+}
+
+.categories-section .imp-text--title {
+    margin-bottom: 5px;
+}
+
+.categories-section .search-result-itm {
+    margin-bottom: 10px;
+    display: block;
+    height: 222px;
 }
