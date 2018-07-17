@@ -247,7 +247,7 @@ body {
 }
 
 .header__min .navbar-wrapper{
-    background-color: #5b65d887;
+    background: linear-gradient(to left, #8885c5 , #5b65d8);
 }
 
 .header__min .nav-item {
@@ -785,6 +785,7 @@ body {
 .prod-itm-info {
     width: 70%;
     display: flex;
+    align-items: center;
 }
 
 .prod-itm-title {
@@ -807,7 +808,8 @@ body {
 }
 
 .prod-itm-price {
-    margin: 0 75px;
+    margin: 0 40px;
+    width: 50%;
     align-self: center;
 }
 
@@ -817,6 +819,7 @@ body {
     color: #808080;
     font-size: 28px;
     font-weight: 700;
+    margin-bottom: 10px;
 }
 
 .price-value__old > .cross-line {
@@ -830,6 +833,7 @@ body {
     -o-transform: translateY(-50%);
     transform: translateY(-50%);
     top: 54%;
+    display: none;
 }
 
 .price-value {
@@ -838,6 +842,19 @@ body {
     background: -webkit-linear-gradient(#5c66d7, #8784c5);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+}
+
+.prod-itm-price {
+    line-height: 1;
+}
+
+.price-value__save {
+    font-size: 24px;
+}
+
+.price-value__val--cur {
+    font-size: 40px;
+    display: inline;
 }
 
 .prod-itm-img {
