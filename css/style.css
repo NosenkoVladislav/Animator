@@ -162,7 +162,7 @@ body {
 
 .navbar-nav li {
     margin: 0 10px;
-    padding: 20px 34px;
+    padding: 20px;
     text-transform: uppercase;
     text-decoration: none;
     font-size: 14px;
@@ -811,12 +811,17 @@ body {
     margin: 0 40px;
     width: 50%;
     align-self: center;
+    background: -webkit-linear-gradient(#5c66d7, #8784c5);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .price-value__old {
     display: inline-block;
     position: relative;
-    color: #808080;
+    background: -webkit-linear-gradient(#5c66d7, #8784c5);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
     font-size: 28px;
     font-weight: 700;
     margin-bottom: 10px;
@@ -839,9 +844,6 @@ body {
 .price-value {
     font-size: 51px;
     font-weight: 700;
-    background: -webkit-linear-gradient(#5c66d7, #8784c5);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
 }
 
 .prod-itm-price {
@@ -850,11 +852,17 @@ body {
 
 .price-value__save {
     font-size: 24px;
+    background: -webkit-linear-gradient(#5c66d7, #8784c5);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .price-value__val--cur {
     font-size: 40px;
     display: inline;
+    background: -webkit-linear-gradient(#5c66d7, #8784c5);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .prod-itm-img {
@@ -1190,6 +1198,17 @@ body {
     object-fit: cover;
 }
 
+
+.sidebar-text {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.sidebar-text .btn {
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 10px;
+}
 /*open article page*/
 
 .page-main-content {
@@ -1740,6 +1759,7 @@ body {
 
 .remember-pass {
     font-size: 14px;
+    margin-left: 10px;
 }
 
 .pass-save {
