@@ -8,6 +8,10 @@ body {
     outline: none !important;
 }
 
+.nav>li>a {
+    padding: 10px 5px;
+}
+
 .header {
     background: url('../assets/images/bg-header.png') no-repeat;
     -webkit-background-size:  cover;
@@ -780,6 +784,7 @@ body {
 .prod-itm {
     display: flex;
     margin-bottom: 70px;
+    height: 250px;
 }
 
 .prod-itm-info {
@@ -791,6 +796,8 @@ body {
 .prod-itm-title {
     font-size: 28px;
     font-weight: 600;
+    color: #000 !important;
+    text-decoration: none !important;;
 }
 
 .prod-itm-category {
@@ -872,10 +879,13 @@ body {
     -moz-border-radius: 5px;
     border-radius: 5px;
     overflow: hidden;
+    height: inherit;
 }
 
 .prod-itm-img img {
     width: 100%;
+    height: inherit;
+    object-fit: cover;
 }
 
 .prod-itm__last {
