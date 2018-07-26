@@ -48,6 +48,10 @@
     .prod-itm-offer--save__val {
         font-size: 36px;
     }
+
+    .restaurant-gallery-item .imp-img {
+        height: 200px;
+    }
 }
 
 @media (max-width: 991px) {
@@ -149,6 +153,14 @@
 
     .sidebar-text .btn {
         width: 50%;
+    }
+
+    .restaurant-gallery-item .imp-img {
+        height: 150px;
+    }
+
+    .restaurant-gallery-item  .btn-imp {
+        width: 80%;
     }
 }
 
@@ -331,8 +343,15 @@
         height: 200px;
     }
 
-    .categories-nav-item {
+    .categories-nav-itm {
         width: 60px;
+        height: 60px;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 
     .categories-nav i {
@@ -495,6 +514,70 @@
         height: 350px;
     }
 
+    .restaurant-gallery {
+        grid-gap: 15px;
+    }
+
+    .restaurant-info {
+        margin-top: 50px;
+    }
+
+    .contacts-name {
+        font-size: 16px;
+        width: 115px;
+        margin-right: 10px;
+    }
+
+    .restaurant-all {
+        margin: 35px 0;
+    }
+
+    .offer-item-price {
+        margin: 15px 0;
+    }
+
+    .restaurant-contacts {
+        width: 65%;
+    }
+
+    .restaurant-vauchers {
+        width: 35%;
+    }
+}
+
+@media (max-width: 710px) {
+    .restaurant-gallery {
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 25px;
+    }
+
+    .restaurant-gallery-item .imp-img {
+        height: 220px;
+    }
+
+    .restaurant-contacts {
+        width: 100%;
+    }
+
+    .restaurant-vauchers {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .restaurant-info {
+        flex-direction: column;
+    }
+
+    .offer-item {
+        width: 50%;
+    }
+
+    .vauchers-item {
+        margin: 0 10px 25px 10px;
+        padding: 10px 20px ;
+    }
 }
 
 @media (max-width: 480px) {
@@ -717,6 +800,28 @@
         font-size: 40px;
     }
 
+    .restaurant-gallery-item .imp-img {
+        height: 200px;
+    }
+
+    .offer-item .btn {
+        width: 90%;
+    }
+
+    .categories-nav-itm {
+        width: 45px;
+        height: 45px;
+    }
+}
+
+@media (max-width: 400px) {
+    .restaurant-gallery {
+        grid-gap: 15px;
+    }
+
+    .restaurant-gallery-item .imp-img {
+        height: 160px;
+    }
 }
 
 @media (max-width: 320px) {
@@ -730,6 +835,11 @@
 
     .prod-itm-img {
         height: 250px;
+    }
+
+    .offer-item .btn {
+        width: 100%;
+        font-size: 11px;
     }
 }
 

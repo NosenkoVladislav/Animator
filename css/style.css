@@ -2098,3 +2098,208 @@ body {
     display: block;
     height: 222px;
 }
+
+
+/*resaturant page*/
+.page-restaurant .page-nav{
+    margin: 20px 0;
+    padding: 0;
+}
+
+
+.restaurant-name {
+    text-align: center;
+}
+
+.restaurant-rating {
+    display: flex;
+    justify-content: center;
+}
+
+.restaurant-rating--text {
+    font-size: 15px;
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-right: 10px;
+}
+
+.restaurant-about {
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+.restaurant-gallery {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 40px;
+}
+
+.restaurant-gallery-item .imp-img{
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    overflow: hidden;
+    height: 220px;
+}
+
+.restaurant-gallery-item:hover .imp-mask{
+    opacity: 0.8;
+}
+
+.restaurant-gallery-item:hover .btn-imp {
+    opacity: 1;
+}
+
+.restaurant-gallery-item__last .imp-mask{
+    opacity: 0.8;
+}
+
+.restaurant-gallery-item__last .btn-imp {
+    opacity: 1;
+}
+
+.restaurant-info {
+    margin-top: 100px;
+    display: flex;
+}
+
+.restaurant-contacts {
+    width: 70%;
+}
+
+.contacts-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.contacts-value-wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.contacts-name {
+    font-size: 18px;
+    font-weight: 500;
+    width: 130px;
+    margin-right: 50px;
+}
+
+.contacts-value {
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.contacts-value-wrapper__social {
+    flex-direction: row;
+}
+
+.contacts-value-wrapper__social .contacts-value {
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    overflow: hidden;
+    color: #fff;
+    margin: 0 7.5px;
+}
+
+.contacts-value-wrapper__social .contacts-value:hover {
+    text-decoration: none;
+}
+
+.contacts-value__facebook {
+    background-color: #3b5998;
+}
+
+.contacts-value__insta {
+    background-color: #6a453b;
+}
+
+.contacts-value__twitter {
+    background-color: #55acee;
+}
+
+.restaurant-vauchers {
+    width: 30%;
+}
+
+.vauchers-item {
+    text-align: center;
+    margin-bottom: 25px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    border-radius: 50px;
+    padding: 10px;
+    -webkit-box-shadow: 3px 4px 14px -5px #00000054;
+    -moz-box-shadow: 3px 4px 14px -5px #00000054;
+    box-shadow: 3px 4px 14px -5px #00000054;
+}
+
+.vauchers-item-text {
+    font-weight: 300;
+    font-size: 16px;
+}
+
+.vauchers-item-num {
+    margin-bottom: 5px;
+    background: -webkit-linear-gradient(#5c66d7, #8784c5);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.restaurant-offer {
+    display: flex;
+}
+
+.offer-item {
+    width: 300px;
+    text-align: center;
+    padding: 30px 10px;
+}
+
+.offer-item-name {
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.offer-item-price {
+    font-size: 32px;
+    font-weight: 700;
+    background: -webkit-linear-gradient(#5c66d7, #8784c5);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin: 20px 0;
+}
+
+.offer-item .btn {
+    width: 70%
+}
+
+.restaurant-all {
+    text-align: center;
+    margin: 70px 0;
+}
+
+.restaurant-rating--value ul {
+    display: flex;
+}
+
+.star {
+    color: #aab6c7;
+}
+
+.star.hover {
+    color: #efce4a;
+}
+
+.star.selected {
+    color: #efce4a;
+}
