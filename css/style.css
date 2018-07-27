@@ -2420,3 +2420,11 @@ body {
         background: none;
     }
 }
+
+@media not all and (min-resolution:.001dpcm) { @media
+{
+    .prod-itm-offer {
+        color: #5c66d7;
+        background: none;
+    }
+}}
