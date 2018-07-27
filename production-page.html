@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
     <link rel="stylesheet" href="css/font.css">
     <link rel="stylesheet" href="plugins/slider/slider.css">
+    <link rel="stylesheet" href="plugins/Magnific-Popup/css/magnific-popup.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/media.css">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -53,7 +54,7 @@
                             <li><a href="categories.html" class="nav-item">категории</a></li>
                             <li><a href="production-page.html" class="nav-item">предложения</a></li>
                             <li><a href="about.html" class="nav-item">как это работает</a></li>
-                            <li><a href="blog-main.html" class="nav-item">стать партнером</a></li>
+                            <li><a href="become-partner.html" class="nav-item">стать партнером</a></li>
                             <li><a href="contacts.html" class="nav-item">контакты</a></li>
                         </ul>
                     </div>
@@ -87,7 +88,7 @@
                     </a>
                 </div>
                 <div class="prod-itm-btn">
-                    <a href="#" class="btn btn-gradient">купить</a>
+                    <a href="#byPopUp-modal" class="btn btn-gradient byPopUp">купить</a>
                 </div>
             </div>
             <div class="prod-itm">
@@ -112,7 +113,7 @@
                     </a>
                 </div>
                 <div class="prod-itm-btn">
-                    <a href="#" class="btn btn-gradient">купить</a>
+                    <a href="#byPopUp-modal" class="btn btn-gradient byPopUp">купить</a>
                 </div>
             </div>
             <div class="prod-itm">
@@ -137,7 +138,7 @@
                     </a>
                 </div>
                 <div class="prod-itm-btn">
-                    <a href="#" class="btn btn-gradient">купить</a>
+                    <a href="#byPopUp-modal" class="btn btn-gradient byPopUp">купить</a>
                 </div>
             </div>
             <div class="prod-itm">
@@ -162,7 +163,7 @@
                     </a>
                 </div>
                 <div class="prod-itm-btn">
-                    <a href="#" class="btn btn-gradient">купить</a>
+                    <a href="#byPopUp-modal" class="btn btn-gradient byPopUp">купить</a>
                 </div>
             </div>
             <div class="prod-itm">
@@ -187,7 +188,7 @@
                     </a>
                 </div>
                 <div class="prod-itm-btn">
-                    <a href="#" class="btn btn-gradient">купить</a>
+                    <a href="#byPopUp-modal" class="btn btn-gradient byPopUp">купить</a>
                 </div>
             </div>
             <div class="prod-itm">
@@ -212,7 +213,7 @@
                     </a>
                 </div>
                 <div class="prod-itm-btn">
-                    <a href="#" class="btn btn-gradient">купить</a>
+                    <a href="#byPopUp-modal" class="btn btn-gradient byPopUp">купить</a>
                 </div>
             </div>
         </div>
@@ -313,10 +314,40 @@
 <section class="copyright">
     <span>Copyright © 2018 The Animator. All Rights Reserved</span>
 </section>
+
+<div id="byPopUp-modal" class="popup-content by-popup mfp-hide by-popup__white">
+    <div class="popup-body">
+        <a class="popup-modal-dismiss" href="#" id="popup-close">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                 stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                 class="feather feather-x">
+                <line x1="18" y1="6" x2="6" y2="18"></line>
+                <line x1="6" y1="6" x2="18" y2="18"></line>
+            </svg>
+        </a>
+        <div class="popup-title">
+            Купите все 5 категорий подписок по одной цене
+        </div>
+        <div class="restaurant-offer">
+            <div class="offer-item">
+                <div class="offer-item-name">6 месяцев</div>
+                <div class="offer-item-price">цена $</div>
+                <bnt class="offer-item--btn btn-gradient btn">подписаться</bnt>
+            </div>
+            <div class="offer-item">
+                <div class="offer-item-name">12 месяцев</div>
+                <div class="offer-item-price">цена $</div>
+                <bnt class="offer-item--btn btn-gradient btn">подписаться</bnt>
+            </div>
+        </div>
+    </div>
+</div>
+
 </body>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 <script src="plugins/bootstrap/js/bootstrap.min.js"></script>
 <script src="plugins/slick/slick.min.js"></script>
 <script src="plugins/slider/slider.js"></script>
+<script src="plugins/Magnific-Popup/js/jquery.magnific-popup.min.js"></script>
 <script src="js/main.js"></script>
 </html>
