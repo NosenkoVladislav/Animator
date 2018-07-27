@@ -897,6 +897,14 @@ body {
     line-height: 1.2;
 }
 
+.prod-itm-offer:not(:root:root){
+    width: 25%;
+    margin: 0 20px;
+    ont-size: 28px;
+    font-weight: 700;
+    line-height: 1.2;
+}
+
 .prod-itm-text {
     width: 70%;
 }
@@ -2404,4 +2412,11 @@ body {
 
 .popup-modal-dismiss svg {
     color: #337ab7;
+}
+
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+    .prod-itm-offer {
+        color: #5c66d7;
+        background: none;
+    }
 }
