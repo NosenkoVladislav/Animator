@@ -1034,12 +1034,11 @@ body {
 }
 
 .btn-chat {
-    display: inline-block;
+    display: block;
     background-color: #7db9ff;
     color: #fff;
     width: 50%;
-    margin: 0 auto;
-    margin: 5px ;
+    margin: 5px auto;
     padding: 5px 0;
 }
 
