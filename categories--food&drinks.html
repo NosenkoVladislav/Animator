@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
     <link rel="stylesheet" href="css/font.css">
     <link rel="stylesheet" href="plugins/slider/slider.css">
+    <link rel="stylesheet" href="plugins/slick/slick.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/media.css">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -70,7 +71,7 @@
         </div>
         <div class="categories-nav">
             <a href="categories--food&drinks.html" class="categories-nav-itm btn active"><span>Еда, напитки</span><i class="fas fa-cocktail"></i></a>
-            <a href="#" class="categories-nav-itm btn"><span>Красота, здоровье</span><i class="fas fa-heart"></i></a>
+            <a href="categories.html" class="categories-nav-itm btn"><span>Красота, здоровье</span><i class="fas fa-heart"></i></a>
             <a href="#" class="categories-nav-itm btn"><span>Развлечения, отдых</span><i class="fas fa-umbrella-beach"></i></a>
             <a href="#" class="categories-nav-itm btn"><span>Мода, ретейл</span><i class="fas fa-shopping-bag"></i></a>
             <a href="#" class="categories-nav-itm btn"><span>Услуги, сервисы</span><i class="fas fa-user-tie"></i></a>
@@ -256,78 +257,70 @@
                         <div class="blog-sidebar-recommend">
                             <div class="blog-sidebar--title">Популярные предложения</div>
                             <div class="blog-sidebar-itm-list">
-                                <div class="blog-sidebar-itm">
+                                <a href="restaurant.html" class="blog-sidebar-itm">
                                     <div class="blog-sidebar-itm--img">
                                         <img src="assets/images/blogImg.jpg" alt="blog image">
                                     </div>
                                     <div class="blog-sidebar-imt--text">Lorem ipsum dolor sit amet, consectetur adipisicing
                                         elit. A at culpa doloribus earum
                                     </div>
-                                </div>
-                                <div class="blog-sidebar-itm">
+                                </a>
+                                <a href="restaurant.html" class="blog-sidebar-itm">
                                     <div class="blog-sidebar-itm--img">
                                         <img src="assets/images/blogImg.jpg" alt="blog image">
                                     </div>
                                     <div class="blog-sidebar-imt--text">Lorem ipsum dolor sit amet, consectetur adipisicing
                                         elit. A at culpa doloribus earum
                                     </div>
-                                </div>
-                                <div class="blog-sidebar-itm">
+                                </a>
+                                <a href="restaurant.html" class="blog-sidebar-itm">
                                     <div class="blog-sidebar-itm--img">
                                         <img src="assets/images/blogImg.jpg" alt="blog image">
                                     </div>
                                     <div class="blog-sidebar-imt--text">Lorem ipsum dolor sit amet, consectetur adipisicing
                                         elit. A at culpa doloribus earum
                                     </div>
-                                </div>
-                                <div class="blog-sidebar-itm">
+                                </a>
+                                <a href="restaurant.html" class="blog-sidebar-itm">
                                     <div class="blog-sidebar-itm--img">
                                         <img src="assets/images/blogImg.jpg" alt="blog image">
                                     </div>
                                     <div class="blog-sidebar-imt--text">Lorem ipsum dolor sit amet, consectetur adipisicing
                                         elit. A at culpa doloribus earum
                                     </div>
-                                </div>
-                                <div class="blog-sidebar-itm">
+                                </a>
+                                <a href="restaurant.html" class="blog-sidebar-itm">
                                     <div class="blog-sidebar-itm--img">
                                         <img src="assets/images/blogImg.jpg" alt="blog image">
                                     </div>
                                     <div class="blog-sidebar-imt--text">Lorem ipsum dolor sit amet, consectetur adipisicing
                                         elit. A at culpa doloribus earum
                                     </div>
-                                </div>
-                                <div class="blog-sidebar-itm">
+                                </a>
+                                <a href="restaurant.html" class="blog-sidebar-itm">
                                     <div class="blog-sidebar-itm--img">
                                         <img src="assets/images/blogImg.jpg" alt="blog image">
                                     </div>
                                     <div class="blog-sidebar-imt--text">Lorem ipsum dolor sit amet, consectetur adipisicing
                                         elit. A at culpa doloribus earum
                                     </div>
-                                </div>
-                                <div class="blog-sidebar-itm">
+                                </a>
+                                <a href="restaurant.html" class="blog-sidebar-itm">
                                     <div class="blog-sidebar-itm--img">
                                         <img src="assets/images/blogImg.jpg" alt="blog image">
                                     </div>
                                     <div class="blog-sidebar-imt--text">Lorem ipsum dolor sit amet, consectetur adipisicing
                                         elit. A at culpa doloribus earum
                                     </div>
-                                </div>
-                                <div class="blog-sidebar-itm">
+                                </a>
+                                <a href="restaurant.html" class="blog-sidebar-itm">
                                     <div class="blog-sidebar-itm--img">
                                         <img src="assets/images/blogImg.jpg" alt="blog image">
                                     </div>
                                     <div class="blog-sidebar-imt--text">Lorem ipsum dolor sit amet, consectetur adipisicing
                                         elit. A at culpa doloribus earum
                                     </div>
-                                </div>
-                                <div class="blog-sidebar-itm">
-                                    <div class="blog-sidebar-itm--img">
-                                        <img src="assets/images/blogImg.jpg" alt="blog image">
-                                    </div>
-                                    <div class="blog-sidebar-imt--text">Lorem ipsum dolor sit amet, consectetur adipisicing
-                                        elit. A at culpa doloribus earum
-                                    </div>
-                                </div>
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -339,45 +332,65 @@
 
 <section class="recommend">
     <div class="container">
-        <div class="recommend-content">
+        <div class="recommend-slider-wrap">
             <div class="section-title">Рекомендации</div>
-            <div class="slider">
-                <div id="wrapper_bu">
-                    <div id="bu1">
-                        <div class="recommend-item">
-                            <div class="imp-img">
-                                <img src="assets/images/spa--2--1.jpg" alt="Card image 1">
-                            </div>
-                            <div class="imp-text">
-                                <div class="imp-text--title">СПА процедуры - профилактика и лечение различных заболеваний. </div>
-                                <!--<div class="imp-text&#45;&#45;title__sub">СПА процедуры - профилактика и лечение различных заболеваний. </div>-->
-                            </div>
-                        </div>
+            <div class="recommend-slider">
+                <div class="recommend-item">
+                    <div class="imp-img">
+                        <img src="assets/images/spa--2--1.jpg" alt="Card image 1">
                     </div>
-                    <div id="bu2">
-                        <div class="recommend-item">
-                            <div class="imp-img">
-                                <img src="assets/images/lechenie-loshadmi.png" alt="Card image 2">
-                            </div>
-                            <div class="imp-text">
-                                <div class="imp-text--title">Верхом на лошади от болезней</div>
-                                <!--<div class="imp-text&#45;&#45;title__sub">Верхом на лошади от болезней</div>-->
-                            </div>
-                        </div>
+                    <div class="imp-text">
+                        <div class="imp-text--title">СПА процедуры - профилактика и лечение различных заболеваний. </div>
+                        <!--<div class="imp-text&#45;&#45;title__sub">СПА процедуры - профилактика и лечение различных заболеваний. </div>-->
                     </div>
-                    <div id="bu3">
-                        <div class="recommend-item">
-                            <div class="imp-img">
-                                <img src="assets/images/exclusive-cake-tort-2%20—%20копия.jpg" alt="Card image 3">
-                            </div>
-                            <div class="imp-text">
-                                <div class="imp-text--title">Заказывайте ексклюзивные торты ко дню рождения ваших любимых и близких! Скидка 20%.</div>
-                                <!--<div class="imp-text&#45;&#45;title__sub">Заказывайте ексклюзивные торты ко дню рождения ваших любимых и близких! Скидка 20%.</div>-->
-                            </div>
-                        </div>
+                </div>
+                <div class="recommend-item">
+                    <div class="imp-img">
+                        <img src="assets/images/lechenie-loshadmi.png" alt="Card image 2">
+                    </div>
+                    <div class="imp-text">
+                        <div class="imp-text--title">Верхом на лошади от болезней</div>
+                        <!--<div class="imp-text&#45;&#45;title__sub">Верхом на лошади от болезней</div>-->
+                    </div>
+                </div>
+                <div class="recommend-item">
+                    <div class="imp-img">
+                        <img src="assets/images/exclusive-cake-tort-2%20—%20копия.jpg" alt="Card image 3">
+                    </div>
+                    <div class="imp-text">
+                        <div class="imp-text--title">Заказывайте ексклюзивные торты ко дню рождения ваших любимых и близких! Скидка 20%.</div>
+                        <!--<div class="imp-text&#45;&#45;title__sub">Заказывайте ексклюзивные торты ко дню рождения ваших любимых и близких! Скидка 20%.</div>-->
+                    </div>
+                </div>
+                <div class="recommend-item">
+                    <div class="imp-img">
+                        <img src="assets/images/spa--2--1.jpg" alt="Card image 1">
+                    </div>
+                    <div class="imp-text">
+                        <div class="imp-text--title">СПА процедуры - профилактика и лечение различных заболеваний. </div>
+                        <!--<div class="imp-text&#45;&#45;title__sub">СПА процедуры - профилактика и лечение различных заболеваний. </div>-->
+                    </div>
+                </div>
+                <div class="recommend-item">
+                    <div class="imp-img">
+                        <img src="assets/images/lechenie-loshadmi.png" alt="Card image 2">
+                    </div>
+                    <div class="imp-text">
+                        <div class="imp-text--title">Верхом на лошади от болезней</div>
+                        <!--<div class="imp-text&#45;&#45;title__sub">Верхом на лошади от болезней</div>-->
+                    </div>
+                </div>
+                <div class="recommend-item">
+                    <div class="imp-img">
+                        <img src="assets/images/exclusive-cake-tort-2%20—%20копия.jpg" alt="Card image 3">
+                    </div>
+                    <div class="imp-text">
+                        <div class="imp-text--title">Заказывайте ексклюзивные торты ко дню рождения ваших любимых и близких! Скидка 20%.</div>
+                        <!--<div class="imp-text&#45;&#45;title__sub">Заказывайте ексклюзивные торты ко дню рождения ваших любимых и близких! Скидка 20%.</div>-->
                     </div>
                 </div>
             </div>
+            <div class="rec-slider-control"></div>
         </div>
     </div>
 </section>
@@ -446,6 +459,8 @@
 </body>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 <script src="plugins/bootstrap/js/bootstrap.min.js"></script>
+<script src="plugins/slick/slick.min.js"></script>
 <script src="plugins/slider/slider.js"></script>
+<script src="plugins/Magnific-Popup/js/jquery.magnific-popup.min.js"></script>
 <script src="js/main.js"></script>
 </html>

@@ -162,6 +162,10 @@
     .restaurant-gallery-item  .btn-imp {
         width: 80%;
     }
+
+    .recommend-item {
+        width: 360px;
+    }
 }
 
 @media (max-width: 769px) {
@@ -410,8 +414,7 @@
 
     .about-info-content {
         padding: 20px 0;
-        margin: 0;
-        margin-bottom: 20px;
+        margin: 0 0 20px 0;
     }
 
     .sign-img {
@@ -542,6 +545,14 @@
 
     .restaurant-vauchers {
         width: 35%;
+    }
+
+    .recommend-item {
+        width: 300px;
+    }
+
+    .imp-img {
+        height: 220px;
     }
 }
 
@@ -812,6 +823,18 @@
         width: 45px;
         height: 45px;
     }
+
+    .recommend-slider .slick-track {
+        padding: 35px 0 10px 0;
+    }
+
+    .recommend-slider-wrap {
+        margin-bottom: 20px;
+    }
+
+    .app {
+        margin-bottom: 50px;
+    }
 }
 
 @media (max-width: 400px) {
@@ -821,6 +844,14 @@
 
     .restaurant-gallery-item .imp-img {
         height: 160px;
+    }
+
+    .rec-slider-control .sl-next {
+        right: 1%;
+    }
+
+    .rec-slider-control .sl-prev {
+        left: 1%;
     }
 }
 
@@ -840,6 +871,14 @@
     .offer-item .btn {
         width: 100%;
         font-size: 11px;
+    }
+
+    .slick-center {
+        -webkit-transform: scale(1);
+        -moz-transform: scale(1);
+        -ms-transform: scale(1);
+        -o-transform: scale(1);
+        transform: scale(1);
     }
 }
 

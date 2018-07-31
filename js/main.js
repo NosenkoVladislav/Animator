@@ -25,6 +25,35 @@ $('.sl-slider').slick({
     nextArrow: '<div class="sl-next"></div>'
 });
 
+$('.recommend-slider').slick({
+    centerMode: true,
+    variableWidth: true,
+    centerPadding: '60px',
+    slidesToShow: 3,
+    arrows: true,
+    appendArrows: '.rec-slider-control',
+    prevArrow: '<div class="sl-prev"></div>',
+    nextArrow: '<div class="sl-next"></div>',
+    responsive: [
+        {
+            breakpoint: 768,
+            settings: {
+                centerMode: true,
+                centerPadding: '40px',
+                slidesToShow: 3
+            }
+        },
+        {
+            breakpoint: 480,
+            settings: {
+                centerMode: true,
+                centerPadding: '40px',
+                slidesToShow: 1
+            }
+        }
+    ]
+});
+
 // rating stars
 $(document).ready(function(){
 
@@ -96,3 +125,5 @@ $(function () {
         $.magnificPopup.close();
     });
 })
+
+
