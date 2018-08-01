@@ -52,6 +52,15 @@
     .restaurant-gallery-item .imp-img {
         height: 200px;
     }
+
+    #regPopUp-modal .popup-body,
+    #signPopUp-modal .popup-body{
+        width: 80%;
+    }
+
+    .popup-title {
+        font-size: 40px;
+    }
 }
 
 @media (max-width: 991px) {
@@ -127,6 +136,10 @@
         display: none;
     }
 
+    .prod-itm-content {
+        height: 250px;
+    }
+
     .prod-itm-info{
         width: 65%;
     }
@@ -165,6 +178,32 @@
 
     .recommend-item {
         width: 360px;
+    }
+
+    .popup-body {
+        width: 80%;
+    }
+
+    .by-popup .offer-item {
+        margin: 0 15px;
+        width: 250px;
+    }
+
+    .popup-title {
+        width: 80%;
+    }
+
+    #regPopUp-modal .popup-body,
+    #signPopUp-modal .popup-body{
+        width: 80%;
+    }
+
+    .popup-body .sing-link {
+        width: 80%;
+    }
+
+    .popup-body .sign-form {
+        width: 60%;
     }
 }
 
@@ -500,7 +539,7 @@
     .prod-itm-content {
         flex-direction: column-reverse;
         height: auto;
-        margin-bottom: 50px;
+        margin-bottom: 30px;
     }
 
     .prod-itm-info {
@@ -514,7 +553,11 @@
 
     .prod-itm-img {
         width: 100%;
-        height: 350px;
+        height: 300px;
+    }
+
+    .prod-itm-btn {
+        margin: 0;
     }
 
     .restaurant-gallery {
@@ -554,6 +597,18 @@
     .imp-img {
         height: 220px;
     }
+
+    .popup-title {
+        font-size: 34px;
+    }
+
+    .popup-body .sing-link {
+        width: 80%;
+    }
+
+    .popup-body .sign-form {
+        width: 70%;
+    }
 }
 
 @media (max-width: 710px) {
@@ -588,6 +643,49 @@
     .vauchers-item {
         margin: 0 10px 25px 10px;
         padding: 10px 20px ;
+    }
+
+    .by-popup .offer-item {
+        margin: 0 10px;
+        width: 220px;
+    }
+
+    .popup-body {
+        width: 90%;
+    }
+
+    .popup-title {
+        font-size: 30px;
+    }
+
+    .popup-body .sign-content {
+        padding: 60px 10px;
+    }
+}
+
+@media (max-width: 550px) {
+    .offer-item .btn {
+        width: 85%;
+    }
+
+    .restaurant-offer {
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+
+    .by-popup .offer-item {
+        width: 80%;
+        padding: 10px;
+        margin: 10px 0;
+    }
+
+    .by-popup .popup-title {
+        margin-bottom: 20px;
+    }
+
+    .by-popup .popup-title {
+        font-size: 16px;
     }
 }
 
@@ -835,6 +933,14 @@
     .app {
         margin-bottom: 50px;
     }
+
+    .prod-itm-btn {
+        text-align: center;
+    }
+
+    .popup-body .sign-form {
+        width: 90%;
+    }
 }
 
 @media (max-width: 400px) {
@@ -852,6 +958,10 @@
 
     .rec-slider-control .sl-prev {
         left: 1%;
+    }
+
+    .popup-body .sing-link {
+        font-size: 16px;
     }
 }
 
@@ -880,6 +990,16 @@
         -o-transform: scale(1);
         transform: scale(1);
     }
+
+    .by-popup .offer-item {
+        width: 80%;
+        padding: 5px 10px;
+        margin: 10px 0;
+    }
+
+    #signPopUp-modal .sign-content{
+        padding: 15px 10px;
+    }
 }
 
 @media screen and (orientation:landscape) {
@@ -892,6 +1012,7 @@
         margin-top: 20px;
         padding: 30px 0;
     }
+
 }
 
 @media (max-width: 700px) and (orientation:landscape) {
@@ -901,5 +1022,9 @@
 
     textarea.chat-input {
         height: 60px;
+    }
+
+    .mfp-container {
+        height: auto;
     }
 }

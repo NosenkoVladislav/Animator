@@ -113,7 +113,7 @@
                     </a>
                 </div>
                 <div class="prod-itm-btn">
-                    <a href="#byPopUp-modal" class="btn btn-gradient byPopUp">купить</a>
+                    <a href="#regPopUp-modal" class="btn btn-gradient byPopUp">купить</a>
                 </div>
             </div>
             <div class="prod-itm">
@@ -138,14 +138,14 @@
                     </a>
                 </div>
                 <div class="prod-itm-btn">
-                    <a href="#byPopUp-modal" class="btn btn-gradient byPopUp">купить</a>
+                    <a href="#signPopUp-modal" class="btn btn-gradient byPopUp">купить</a>
                 </div>
             </div>
             <div class="prod-itm">
                 <div class="prod-itm-content">
                     <div class="prod-itm-info">
                         <div class="prod-itm-text">
-                            <a href="categories--food&drinks.html" class="prod-itm-title">Спорт</a>
+                            <a href="categories--food&drinks.html" class="prod-itm-title">Мода, ритейл</a>
                             <div class="prod-itm-descr">Ваучеры данной категории позволяют получить подарочную сумму,
                                 которую можно потратить в магазине.
                             </div>
@@ -339,6 +339,67 @@
                 <div class="offer-item-price">цена $</div>
                 <bnt class="offer-item--btn btn-gradient btn">подписаться</bnt>
             </div>
+        </div>
+    </div>
+</div>
+
+<div id="signPopUp-modal" class="popup-content by-popup mfp-hide by-popup__white">
+    <div class="popup-body">
+        <a class="popup-modal-dismiss" href="#" id="popup-close">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                 stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                 class="feather feather-x">
+                <line x1="18" y1="6" x2="6" y2="18"></line>
+                <line x1="6" y1="6" x2="18" y2="18"></line>
+            </svg>
+        </a>
+        <div class="sign-content">
+            <div class="sign-title">
+                <a class="sing-link sign-in-link active">Если Вы зарегистрированы, пожалуйста повторите ввод Ваших данных для совершения покупки</a>
+            </div>
+            <form action="" class="sign-form">
+                <input type="text" class="form-element" placeholder="Почта">
+                <input type="text" class="form-element" placeholder="Пароль">
+                <div class="pass-save-wrapper">
+                    <input type="checkbox" id="rememberPass" class="pass-save">
+                    <!--<label for="rememberPass" class="new-chb"></label>-->
+                    <label for="rememberPass" class="remember-pass">Remember password</label>
+                </div>
+                <div class="sign-form-send">
+                    <button class="btn btn-gradient">sign in</button>
+                    <div class="sign-separator">or</div>
+                    <button class="btn btn-gradient btn-facebook"><i class="fab fa-facebook-f"></i></button>
+                </div>
+            </form>
+            <div class="pass-forgot">Forgot my password</div>
+        </div>
+    </div>
+</div>
+
+<div id="regPopUp-modal" class="popup-content by-popup mfp-hide by-popup__white">
+    <div class="popup-body">
+        <a class="popup-modal-dismiss" href="#" id="popup-close">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                 stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                 class="feather feather-x">
+                <line x1="18" y1="6" x2="6" y2="18"></line>
+                <line x1="6" y1="6" x2="18" y2="18"></line>
+            </svg>
+        </a>
+        <div class="sign-content">
+            <div class="sign-title">
+                <a class="sing-link sign-up-link active">Регистрация</a>
+            </div>
+            <form action="" class="sign-form">
+                <input type="text" class="form-element" placeholder="Имя">
+                <input type="text" class="form-element" placeholder="Почта">
+                <input type="text" class="form-element" placeholder="Пароль">
+                <div class="sign-form-send">
+                    <button class="btn btn-gradient">sign up</button>
+                    <div class="sign-separator">or</div>
+                    <button class="btn btn-gradient btn-facebook"><i class="fab fa-facebook-f"></i></button>
+                </div>
+            </form>
         </div>
     </div>
 </div>

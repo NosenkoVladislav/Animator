@@ -580,6 +580,7 @@ body {
 }
 
 .imp-img {
+    display: block;
     height: 268px;
     position: relative;
 }
@@ -588,6 +589,14 @@ body {
     width: 100%;
     height: inherit;
     object-fit: cover;
+}
+
+.recommend-item-mask {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    z-index: 9;
 }
 
 .imp-text {
@@ -780,12 +789,13 @@ body {
 }
 
 .prod-itm {
-    margin-bottom: 70px;
+    margin-bottom: 50px;
 }
 
 .prod-itm-content {
     display: flex;
-    height: 250px;
+    /*height: 250px;*/
+    height: 220px;
 }
 
 .prod-itm-btn .btn-gradient {
@@ -816,6 +826,10 @@ body {
     font-size: 20px;
     font-weight: 400;
     color: #747e80;
+}
+
+.prod-itm-btn {
+    margin-top: -40px;
 }
 
 /*.prod-itm-price {*/
@@ -2428,50 +2442,42 @@ body {
     color: #337ab7;
 }
 
-.slider-custom {
-    width: 100%;
-    height: 250px;
-    overflow: hidden;
-    background-color: #ccc;
+#regPopUp-modal .popup-body,
+#signPopUp-modal .popup-body {
+    width: 60%;
+}
+
+.popup-body .sign-content {
     display: flex;
+    flex-direction: column;
     align-items: center;
-    position: relative;
 }
 
-.slider-track {
-    display: flex;
-    position: absolute;
-}
-
-.slider-item {
-    width: 200px;
-    height: 150px;
-    background-color: #856855;
-    color: #fff;
-    display: flex;
+.popup-body .sign-title {
     justify-content: center;
-    align-items: center;
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-    border: 1px solid #e3e3e3;
-    -webkit-transition: ease-in-out .3s;
-    -moz-transition: ease-in-out .3s;
-    -ms-transition: ease-in-out .3s;
-    -o-transition: ease-in-out .3s;
-    transition: ease-in-out .3s;
 }
 
-.slider-item.current {
-    -webkit-transform: scale(1.2);
-    -moz-transform: scale(1.2);
-    -ms-transform: scale(1.2);
-    -o-transform: scale(1.2);
-    transform: scale(1.2);
+.popup-body .sing-link {
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 10px;
+    width: 60%;
+}
+
+.popup-body .sign-form {
+    width: 40%;
+}
+
+.slick-center  .recommend-item-mask {
+    display: none;
 }
 
 .recommend-slider-wrap {
     position: relative;
+}
+
+.recommend-slider-wrap .section-title {
+    text-align: center;
 }
 
 .recommend-slider {
@@ -2513,6 +2519,7 @@ body {
     -o-transition: ease-in-out .3s;
     transition: ease-in-out .3s;
     opacity: 0.6;
+    position: relative;
 }
 
 .rec-slider-control {
@@ -2534,6 +2541,7 @@ body {
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
     border-radius: 50%;
+    cursor: pointer;
 }
 
 .rec-slider-control .sl-next {
@@ -2553,5 +2561,5 @@ body {
     -ms-transform: rotate(180deg);
     -o-transform: rotate(180deg);
     transform: rotate(180deg);
-    color: #000;
+    cursor: pointer;
 }

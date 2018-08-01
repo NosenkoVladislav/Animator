@@ -8,12 +8,12 @@ $('.chat-close').click(function () {
 
 $(function () {
     var doc = $(document).height();
-    console.log(doc)
+    var footer = $('.footer').outerWidth();
     $(window).scroll(function () {
         if($(window).scrollTop() > doc/4) {
             $('.chat-toggle').fadeIn(500);
         }
-    })
+    });
 })
 
 $('.sl-slider').slick({
@@ -125,5 +125,3 @@ $(function () {
         $.magnificPopup.close();
     });
 })
-
-
