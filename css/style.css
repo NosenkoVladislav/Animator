@@ -1769,7 +1769,7 @@ body {
 }
 
 .sign-content {
-    padding: 80px 50px;
+    padding: 80px 0;
 }
 
 .sign-img {
@@ -2443,8 +2443,27 @@ body {
     color: #337ab7;
 }
 
-#regPopUp-modal .popup-body,
+#byPopUp-modal .popup-body {
+    height: auto;
+    width: auto;
+    padding: 30px 0;
+}
+
+#regPopUp-modal .popup-body {
+    width: 30%;
+    height: auto;
+}
+
+#regPopUp-modal .sign-form {
+    width: 70%;
+}
+
 #signPopUp-modal .popup-body {
+    width: auto;
+    height: auto;
+}
+
+#signPopUp-modal .sign-title {
     width: 60%;
 }
 
@@ -2462,11 +2481,11 @@ body {
     font-size: 18px;
     text-align: center;
     margin-bottom: 10px;
-    width: 60%;
+    width: auto !important;
 }
 
 .popup-body .sign-form {
-    width: 40%;
+    width: 45%;
 }
 
 .slick-center  .recommend-item-mask {

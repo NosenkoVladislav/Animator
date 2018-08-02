@@ -53,9 +53,12 @@
         height: 200px;
     }
 
-    #regPopUp-modal .popup-body,
     #signPopUp-modal .popup-body{
         width: 80%;
+    }
+
+    #regPopUp-modal .popup-body {
+        width: 450px;
     }
 
     .popup-title {
@@ -193,9 +196,12 @@
         width: 80%;
     }
 
-    #regPopUp-modal .popup-body,
     #signPopUp-modal .popup-body{
         width: 80%;
+    }
+
+    #regPopUp-modal .popup-body {
+        width: 420px;
     }
 
     .popup-body .sing-link {
@@ -661,6 +667,16 @@
     .popup-body .sign-content {
         padding: 60px 10px;
     }
+
+    #regPopUp-modal .popup-body {
+        height: 60%;
+        width: 400px;
+    }
+
+    #signPopUp-modal .sing-link {
+        font-size: 16px;
+        width: 70%;
+    }
 }
 
 @media (max-width: 550px) {
@@ -686,6 +702,11 @@
 
     .by-popup .popup-title {
         font-size: 16px;
+    }
+
+    #regPopUp-modal .popup-body {
+        height: 60%;
+        width: 350px;
     }
 }
 
@@ -941,6 +962,15 @@
     .popup-body .sign-form {
         width: 90%;
     }
+
+    #regPopUp-modal .popup-body {
+        height: 55%;
+        width: 320px;
+    }
+
+    #signPopUp-modal .sign-title {
+        width: 90%;
+    }
 }
 
 @media (max-width: 400px) {
@@ -962,6 +992,15 @@
 
     .popup-body .sing-link {
         font-size: 16px;
+    }
+
+    #regPopUp-modal .popup-body {
+        height: 60%;
+        width: 300px;
+    }
+
+    #signPopUp-modal .sign-content {
+        padding-bottom: 30px;
     }
 }
 
