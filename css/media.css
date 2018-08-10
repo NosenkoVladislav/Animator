@@ -408,6 +408,11 @@
         font-size: 1.8em;
     }
 
+    .categories-nav svg {
+        display: block;
+        width: 35px;
+    }
+
     .categories-nav span {
         display: none;
     }
@@ -1001,6 +1006,10 @@
 
     #signPopUp-modal .sign-content {
         padding-bottom: 30px;
+    }
+
+    .sign-section .sign-content {
+        padding: 80px 5px;
     }
 }
 

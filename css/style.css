@@ -1768,6 +1768,19 @@ body {
     height: calc(100vh - 160px);
 }
 
+.sign-section .sign-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
+    width: auto;
+    margin: 0 auto;
+}
+
+.sign-section .sign-title {
+    justify-content: center;
+}
+
 .sign-content {
     padding: 80px 0;
 }
@@ -2057,8 +2070,13 @@ body {
     justify-content: space-evenly;
 }
 
-.categories-nav i {
+.categories-nav i,
+.categories-nav svg{
     display: none;
+}
+
+.categories-nav svg {
+    fill: #8b94e4;
 }
 
 .categories-nav-itm {
