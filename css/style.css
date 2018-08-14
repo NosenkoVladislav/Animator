@@ -894,28 +894,13 @@ body {
 .prod-itm-offer {
     width: 25%;
     margin: 0 20px;
-    /*background: -webkit-linear-gradient(#5c66d7, #8784c5);*/
-    /*background: linear-gradient(#5c66d7, #8784c5);*/
-    /*background-clip: text;*/
-    /*-webkit-background-clip: text;*/
-    /*text-fill-color: transparent;*/
-    /*-webkit-text-fill-color: transparent;*/
-    font-size: 28px;
+    font-size: 20px;
     font-weight: 700;
     line-height: 1.2;
-
     color: #5c66d7;
     background: none;
 
 }
-
-/*.prod-itm-offer:not(:root:root){*/
-    /*width: 25%;*/
-    /*margin: 0 20px;*/
-    /*ont-size: 28px;*/
-    /*font-weight: 700;*/
-    /*line-height: 1.2;*/
-/*}*/
 
 .prod-itm-text {
     width: 70%;
