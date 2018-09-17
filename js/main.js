@@ -125,3 +125,27 @@ $(function () {
         $.magnificPopup.close();
     });
 })
+
+
+var clock;
+
+$(document).ready(function() {
+    var clock;
+
+    clock = $('.clock').FlipClock({
+        clockFace: 'DailyCounter',
+        autoStart: false,
+        language: 'ru',
+        callbacks: {
+            stop: function() {
+                $('.message').html('The clock has stopped!')
+            }
+        }
+    });
+
+    clock.setTime(1295959);
+    clock.setCountdown(true);
+    clock.start();
+
+});
+

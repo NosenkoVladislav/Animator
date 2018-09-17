@@ -211,6 +211,19 @@
     .popup-body .sign-form {
         width: 60%;
     }
+
+    .tech-text-title {
+        font-size: 45px;
+    }
+
+    .tech-text-main {
+        font-size: 18px;
+    }
+
+    .tech-text {
+        width: 70%;
+    }
+
 }
 
 @media (max-width: 769px) {
@@ -682,6 +695,14 @@
         font-size: 16px;
         width: 70%;
     }
+    
+    .tech-clock {
+        -webkit-transform: scale(0.8);
+        -moz-transform: scale(0.8);
+        -ms-transform: scale(0.8);
+        -o-transform: scale(0.8);
+        transform: scale(0.8);
+    }
 }
 
 @media (max-width: 550px) {
@@ -975,6 +996,14 @@
 
     #signPopUp-modal .sign-title {
         width: 90%;
+    }
+
+    .tech-clock {
+        -webkit-transform: scale(0.7);
+        -moz-transform: scale(0.7);
+        -ms-transform: scale(0.7);
+        -o-transform: scale(0.7);
+        transform: scale(0.7);
     }
 }
 
