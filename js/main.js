@@ -143,7 +143,7 @@ $(document).ready(function() {
         }
     });
 
-    clock.setTime(1295959);
+    clock.setTime(1209600);
     clock.setCountdown(true);
     clock.start();
 
